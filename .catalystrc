@@ -1,0 +1,30 @@
+{
+  "defaults": {
+    "project": 1,
+    "env": 1
+  },
+  "actives": {
+    "project": 1,
+    "env": 1
+  },
+  "projects": [
+    {
+      "idx": 1,
+      "id": "17011000001187027",
+      "name": "clearly1poolservice",
+      "domain": {
+        "id": "10098648217",
+        "name": "clearly1poolservice-809404625.development"
+      },
+      "timezone": "America/Chicago",
+      "env": [
+        {
+          "idx": 1,
+          "id": "809404625",
+          "name": "Development",
+          "type": 3
+        }
+      ]
+    }
+  ]
+}
