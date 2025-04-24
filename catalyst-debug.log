@@ -1,0 +1,124 @@
+[debug] [2025-04-24T01:01:12.896Z] : 
+[debug] [2025-04-24T01:01:12.897Z] : ----------------------------------------------------------------------
+[debug] [2025-04-24T01:01:12.898Z] : Command:      /Users/administrator/.nvm/versions/node/v18.18.2/bin/node /Users/administrator/.nvm/versions/node/v18.18.2/bin/catalyst serve
+[debug] [2025-04-24T01:01:12.898Z] : CLI Version:  1.17.2
+[debug] [2025-04-24T01:01:12.899Z] : Platform:     darwin
+[debug] [2025-04-24T01:01:12.899Z] : Node Version: v18.18.2
+[debug] [2025-04-24T01:01:12.901Z] : Time:         Wed Apr 23 2025 20:01:12 GMT-0500 (Central Daylight Time)
+[debug] [2025-04-24T01:01:12.902Z] : ----------------------------------------------------------------------
+[debug] [2025-04-24T01:01:12.902Z] : 
+[debug] [2025-04-24T01:01:13.785Z] : > authorizing via signed-in user option
+[debug] [2025-04-24T01:01:13.786Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL","ZohoCatalyst.pdfshot.execute"]
+[debug] [2025-04-24T01:01:13.800Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/17011000001187027 
+
+[debug] [2025-04-24T01:01:14.125Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 24 Apr 2025 01:01:14 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["zalb_46512fd555=4ead9897700827f973c0f7dbded7f673; Path=/; Secure; HttpOnly","ZD_CSRF_TOKEN=15a4c65b-ae3e-4a37-970a-2083128d25a5;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=15a4c65b-ae3e-4a37-970a-2083128d25a5;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-04-24T01:01:14.130Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/17011000001187027/environment 
+
+[debug] [2025-04-24T01:01:14.381Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 24 Apr 2025 01:01:14 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["zalb_46512fd555=c3d5ec374d3dc932973a3d50f55d8d00; Path=/; Secure; HttpOnly","ZD_CSRF_TOKEN=e1cbd87b-31b8-442c-9a79-be21796e0368;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=e1cbd87b-31b8-442c-9a79-be21796e0368;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-04-24T01:01:14.604Z] : http port : '3000' is not available. Hence port '3002' will be used instead.
+[debug] [2025-04-24T01:01:14.615Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/17011000001187027/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic"}
+
+[debug] [2025-04-24T01:01:14.732Z] : http port : '3050' is not available. Hence port '3052' will be used instead.
+[debug] [2025-04-24T01:01:14.920Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 24 Apr 2025 01:01:14 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["zalb_46512fd555=b14009a6059feb83ee8aa1c715a015c5; Path=/; Secure; HttpOnly","ZD_CSRF_TOKEN=0b400137-ef05-4575-9393-fb081df88fb9;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=0b400137-ef05-4575-9393-fb081df88fb9;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-04-24T01:01:14.926Z] : unknown eol undefined hence skipping check
+[debug] [2025-04-24T01:01:14.980Z] : http port : '3010' is not available. Hence port '3013' will be used instead.
+[info] [2025-04-24T01:01:18.433Z] : [react-plugin]: Starting the development server...
+
+[info] [2025-04-24T01:01:18.435Z] : 
+[info] [2025-04-24T01:01:18.436Z] : ℹ Client[react-app]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[info] [2025-04-24T01:01:18.436Z] : 
+[info] [2025-04-24T01:01:19.557Z] : 
+[info] [2025-04-24T01:01:19.558Z] :  >>>>>>>>>>>>> AdvancedIO <<<<<<<<<<<< 
+[info] [2025-04-24T01:01:19.558Z] : ℹ clearly_1_poolservice_function: http://localhost:3002/server/clearly_1_poolservice_function/
+[info] [2025-04-24T01:01:19.558Z] : 
+[info] [2025-04-24T01:01:19.558Z] : 
+[info] [2025-04-24T01:01:19.558Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2025-04-24T01:01:19.558Z] : ℹ client[react-app]: http://localhost:3002/app/
+[info] [2025-04-24T01:01:19.558Z] : 
+[info] [2025-04-24T01:01:28.727Z] : [react-plugin]: Failed to compile.
+
+[info] [2025-04-24T01:01:28.728Z] : [react-plugin]: Module not found: Error: Can't resolve 'font-awesome/css/font-awesome.min.css' in '/Users/administrator/WebstormProjects/clearly1poolserviceFinal/react-app/src'
+[info] [2025-04-24T01:01:33.739Z] : Shutting down server
+[info] [2025-04-24T01:01:33.874Z] : 
+[info] [2025-04-24T01:01:33.875Z] : ✔ Shutdown complete
+[debug] [2025-04-24T01:01:33.876Z] : NO ERRORS REGISTERED
+[debug] [2025-04-24T01:01:33.876Z] : EXEC ENDED with event: serve, message: success
+[debug] [2025-04-24T01:01:33.877Z] : TOTAL DURATION OF COMMAND EXEC : 20110
+[debug] [2025-04-24T01:01:33.887Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2025-04-24T01:01:34.157Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 24 Apr 2025 01:01:34 GMT","content-length":"0","connection":"close","set-cookie":["zalb_46512fd555=b14009a6059feb83ee8aa1c715a015c5; Path=/; Secure; HttpOnly","ZD_CSRF_TOKEN=69eae00f-b04f-40a3-a81d-e51bc6c04c13;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=69eae00f-b04f-40a3-a81d-e51bc6c04c13;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-04-24T01:02:29.326Z] : 
+[debug] [2025-04-24T01:02:29.327Z] : ----------------------------------------------------------------------
+[debug] [2025-04-24T01:02:29.327Z] : Command:      /Users/administrator/.nvm/versions/node/v18.18.2/bin/node /Users/administrator/.nvm/versions/node/v18.18.2/bin/catalyst serve
+[debug] [2025-04-24T01:02:29.328Z] : CLI Version:  1.17.2
+[debug] [2025-04-24T01:02:29.328Z] : Platform:     darwin
+[debug] [2025-04-24T01:02:29.328Z] : Node Version: v18.18.2
+[debug] [2025-04-24T01:02:29.330Z] : Time:         Wed Apr 23 2025 20:02:29 GMT-0500 (Central Daylight Time)
+[debug] [2025-04-24T01:02:29.330Z] : ----------------------------------------------------------------------
+[debug] [2025-04-24T01:02:29.331Z] : 
+[debug] [2025-04-24T01:02:30.277Z] : > authorizing via signed-in user option
+[debug] [2025-04-24T01:02:30.278Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL","ZohoCatalyst.pdfshot.execute"]
+[debug] [2025-04-24T01:02:30.294Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/17011000001187027 
+
+[debug] [2025-04-24T01:02:30.590Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 24 Apr 2025 01:02:30 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["zalb_46512fd555=4ead9897700827f973c0f7dbded7f673; Path=/; Secure; HttpOnly","ZD_CSRF_TOKEN=da72bd14-c624-44ed-8e44-150236d9d00d;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=da72bd14-c624-44ed-8e44-150236d9d00d;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-04-24T01:02:30.594Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/17011000001187027/environment 
+
+[debug] [2025-04-24T01:02:30.813Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 24 Apr 2025 01:02:30 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["zalb_46512fd555=4ead9897700827f973c0f7dbded7f673; Path=/; Secure; HttpOnly","ZD_CSRF_TOKEN=df4a877b-97fd-4e88-bc29-e8902a6047d6;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=df4a877b-97fd-4e88-bc29-e8902a6047d6;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-04-24T01:02:31.055Z] : http port : '3000' is not available. Hence port '3002' will be used instead.
+[debug] [2025-04-24T01:02:31.066Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/17011000001187027/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic"}
+
+[debug] [2025-04-24T01:02:31.184Z] : http port : '3050' is not available. Hence port '3052' will be used instead.
+[debug] [2025-04-24T01:02:31.417Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 24 Apr 2025 01:02:31 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["zalb_46512fd555=4ead9897700827f973c0f7dbded7f673; Path=/; Secure; HttpOnly","ZD_CSRF_TOKEN=745d0c65-b9d8-4832-82ab-0f05c8fc8dea;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=745d0c65-b9d8-4832-82ab-0f05c8fc8dea;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-04-24T01:02:31.421Z] : unknown eol undefined hence skipping check
+[debug] [2025-04-24T01:02:31.476Z] : http port : '3010' is not available. Hence port '3013' will be used instead.
+[info] [2025-04-24T01:02:33.592Z] : [react-plugin]: Starting the development server...
+
+[info] [2025-04-24T01:02:33.594Z] : 
+[info] [2025-04-24T01:02:33.594Z] : ℹ Client[react-app]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[info] [2025-04-24T01:02:33.594Z] : 
+[info] [2025-04-24T01:02:34.480Z] : 
+[info] [2025-04-24T01:02:34.480Z] :  >>>>>>>>>>>>> AdvancedIO <<<<<<<<<<<< 
+[info] [2025-04-24T01:02:34.480Z] : ℹ clearly_1_poolservice_function: http://localhost:3002/server/clearly_1_poolservice_function/
+[info] [2025-04-24T01:02:34.480Z] : 
+[info] [2025-04-24T01:02:34.480Z] : 
+[info] [2025-04-24T01:02:34.480Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2025-04-24T01:02:34.481Z] : ℹ client[react-app]: http://localhost:3002/app/
+[info] [2025-04-24T01:02:34.481Z] : 
+[info] [2025-04-24T01:02:43.257Z] : [react-plugin]: Compiled successfully!
+[info] [2025-04-24T01:02:43.257Z] : [react-plugin]: 
+[info] [2025-04-24T01:02:43.257Z] : [react-plugin]: You can now view react-app in the browser.
+[info] [2025-04-24T01:02:43.257Z] : [react-plugin]: 
+[info] [2025-04-24T01:02:43.257Z] : [react-plugin]:   Local:            http://localhost:3002/app/
+[info] [2025-04-24T01:02:43.257Z] : [react-plugin]:   On Your Network:  http://192.168.1.186:3002/app/
+[info] [2025-04-24T01:02:43.258Z] : [react-plugin]: 
+[info] [2025-04-24T01:02:43.258Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2025-04-24T01:02:43.258Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2025-04-24T01:02:43.258Z] : [react-plugin]: 
+[info] [2025-04-24T01:03:34.201Z] : [react-plugin]: Compiling...
+[info] [2025-04-24T01:03:34.500Z] : [react-plugin]: Compiled successfully!
+[info] [2025-04-24T01:03:34.500Z] : [react-plugin]: 
+[info] [2025-04-24T01:03:34.500Z] : [react-plugin]: You can now view react-app in the browser.
+[info] [2025-04-24T01:03:34.500Z] : [react-plugin]: 
+[info] [2025-04-24T01:03:34.501Z] : [react-plugin]:   Local:            http://localhost:3002/app/
+[info] [2025-04-24T01:03:34.501Z] : [react-plugin]:   On Your Network:  http://192.168.1.186:3002/app/
+[info] [2025-04-24T01:03:34.501Z] : [react-plugin]: 
+[info] [2025-04-24T01:03:34.501Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2025-04-24T01:03:34.502Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2025-04-24T01:03:34.502Z] : [react-plugin]: 
