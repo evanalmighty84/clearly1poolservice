@@ -1,4 +1,6 @@
 import React from 'react';
+import Image from '../images/Clearly1animation.gif'
+import Image2 from '../images/clipart2.png'
 
 const AboutSection = () => {
     return (
@@ -19,9 +21,8 @@ const AboutSection = () => {
 
                     <div className="col-md-3 col-sm-6">
                         <div className="about-info skill-thumb">
-                            <img
-                                width="300px"
-                                src="https://res.cloudinary.com/duz4vhtcn/image/upload/v1732295187/Paint_xlo6dw.jpg"
+                            <img width= "300px"
+                                src={Image2}
                                 alt="Paint Roller"
                             />
                         </div>
@@ -30,7 +31,7 @@ const AboutSection = () => {
                     <div className="col-md-4 col-sm-12">
                         <div className="about-image">
                             <img
-                                src="https://res.cloudinary.com/duz4vhtcn/image/upload/v1732285310/Gif_file_uquvdh.gif"
+                                src={Image}
                                 className="img-responsive"
                                 alt="Painting Animation"
                             />

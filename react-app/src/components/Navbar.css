@@ -1,28 +1,44 @@
 /* Navbar.css */
 
 .navbar {
-    background-color: #f9aabb;
+    background: linear-gradient(90deg, #8c52ff, #5ce1e6);
     border: none;
     border-radius: 0;
-    margin-bottom: 0;
+    margin: 0;
+    padding: 0;
     z-index: 9999;
     font-size: 14px;
     line-height: 1.42857143;
+    width: 100vw; /* <-- Add this */
+    max-width: 100%; /* <-- Add this */
+    box-sizing: border-box; /* <-- Add this */
 }
 
 .navbar .container {
+    width: 100%;
+    max-width: 100%; /* <-- Add this */
+    padding: 27px;
+    margin: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    box-sizing: border-box; /* <-- Add this */
 }
+
+.navbar.custom-navbar.navbar-fixed-top {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 
 .navbar-header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 100%;
+    justify-content: flex-start; /* <-- align left */
+    width: auto; /* <-- was 100%, change to auto */
 }
+
 
 .navbar-toggle {
     display: none;
@@ -44,6 +60,13 @@
 .logo img {
     max-height: 50px;
 }
+.logo img {
+    max-width: 200px;
+    height: auto;
+    margin: 0;
+    display: block;
+}
+
 
 .navbar-collapse {
     display: flex !important;
@@ -89,7 +112,7 @@
         flex-direction: column;
         align-items: flex-start;
         width: 100%;
-        background-color: #f9aabb;
+        background: linear-gradient(90deg, #8c52ff, #5ce1e6);
         padding: 10px 0;
     }
 

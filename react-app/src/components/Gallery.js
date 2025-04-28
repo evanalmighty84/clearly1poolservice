@@ -1,23 +1,27 @@
 import React from 'react';
+import Image1 from "../images/6thpicture.jpg"
+import Image2 from "../images/7thpicture.jpeg"
+import Image3 from "../images/8thpicture.jpg"
+import Image4 from "../images/9thpicture.webp"
 
 const galleryItems = [
     {
-        image: "https://res.cloudinary.com/duz4vhtcn/image/upload/v1737709455/4_szkx01.png",
+        image: Image4,
         title: "Clean & Minimal",
         tag: "Product Design",
     },
     {
-        image: "https://res.cloudinary.com/duz4vhtcn/image/upload/v1737709455/Cabinet-BeforeAfter-2_cvinr8.jpg",
+        image: Image1,
         title: "Studio Bag",
         tag: "Branding",
     },
     {
-        image: "https://res.cloudinary.com/duz4vhtcn/image/upload/v1737709454/3_flilvc.jpg",
+        image: Image2,
         title: "Frame Design",
         tag: "Photography",
     },
     {
-        image: "https://res.cloudinary.com/duz4vhtcn/image/upload/v1737709453/2_omeupu.png",
+        image: Image3,
         title: "Paint Work",
         tag: "Art, Design",
     },

@@ -1,4 +1,5 @@
 import React from 'react';
+import Movie from '../images/Movie2.mp4'
 
 const HeroSection = () => {
     return (
@@ -25,7 +26,7 @@ const HeroSection = () => {
                         <div className="home-video">
                             <div className="embed-responsive embed-responsive-16by9">
                                 <video
-                                    src="https://res.cloudinary.com/duz4vhtcn/video/upload/f_auto:video,q_auto/v1732285272/nexuspaintingco_2_1.2_mbp1m5.mp4"
+                                    src={Movie}
                                     autoPlay
                                     loop
                                     muted

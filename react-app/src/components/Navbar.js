@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Navbar.css';
+import Logo from '../images/logopoolservice.png'
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -22,16 +23,16 @@ const Navbar = () => {
                         <span className="icon icon-bar"></span>
                         <span className="icon icon-bar"></span>
                     </button>
-
                     <div style={{ color: 'white' }} className="logo">
-                        <a href="index.html">
+                        <a href="index.html" style={{ display: 'flex', alignItems: 'center' }}>
                             <img
-                                src="https://res.cloudinary.com/duz4vhtcn/image/upload/v1744404935/Caroles_zxigsb.png"
-                                alt="Caroles Convectionery Creations Logo"
-                                style={{ maxWidth: '200px', height: 'auto', margin: '0 auto' }}
+                                src={Logo}
+                                alt="Clearly 1 Pool Service Logo"
+                                style={{ maxWidth: '200px', height: 'auto', margin: '0' }}
                             />
                         </a>
                     </div>
+
                 </div>
 
                 <div className={`collapse navbar-collapse ${isOpen ? 'in' : ''}`}>
@@ -41,6 +42,7 @@ const Navbar = () => {
                         <li><a href="#services" className="smoothScroll">Services</a></li>
                         <li><a href="#work" className="smoothScroll">Project Gallery</a></li>
                         <li><a href="#contact" className="smoothScroll">Contact</a></li>
+                        <li><a href="#contact" className="smoothScroll">Login</a></li>
                     </ul>
 
                     <ul className="nav navbar-nav navbar-right">

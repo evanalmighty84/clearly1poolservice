@@ -8,6 +8,7 @@ import Gallery from './Gallery';
 import ContactSection from './ContactSection';
 import Footer from './Footer';
 import ModalForm from './ModalForm';
+import PoolServiceAnimation from "./GifMakerEmbed";
 
 import '../styles/templatemo-style.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
