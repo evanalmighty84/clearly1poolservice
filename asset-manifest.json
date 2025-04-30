@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.8d155d6c.css",
-    "main.js": "/static/js/main.7443a14a.js",
+    "main.css": "/static/css/main.54494066.css",
+    "main.js": "/static/js/main.11a6c46a.js",
     "static/media/Clearly1animation.gif": "/static/media/Clearly1animation.135ba77a54e1fe9ac198.gif",
     "static/media/Movie2.mp4": "/static/media/Movie2.6d4e61881dbd04dad027.mp4",
     "static/media/clipart2.png": "/static/media/clipart2.0c9622cb74a8ed993fb0.png",
@@ -17,11 +17,11 @@
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/img.png": "/static/media/img.7fbb948976a0776011d1.png",
     "index.html": "/index.html",
-    "main.8d155d6c.css.map": "/static/css/main.8d155d6c.css.map",
-    "main.7443a14a.js.map": "/static/js/main.7443a14a.js.map"
+    "main.54494066.css.map": "/static/css/main.54494066.css.map",
+    "main.11a6c46a.js.map": "/static/js/main.11a6c46a.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d155d6c.css",
-    "static/js/main.7443a14a.js"
+    "static/css/main.54494066.css",
+    "static/js/main.11a6c46a.js"
   ]
 }
