@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.54494066.css",
-    "main.js": "/static/js/main.cbf40166.js",
-    "static/media/Clearly1animation.gif": "/static/media/Clearly1animation.135ba77a54e1fe9ac198.gif",
-    "static/media/Movie2.mp4": "/static/media/Movie2.6d4e61881dbd04dad027.mp4",
+    "main.css": "/static/css/main.a988d059.css",
+    "main.js": "/static/js/main.85e99d3c.js",
+    "static/media/Clearly.gif": "/static/media/Clearly.571c055f29bdfcae5037.gif",
+    "static/media/Movie5.mp4": "/static/media/Movie5.171879edfd83d708a214.mp4",
     "static/media/clipart2.png": "/static/media/clipart2.0c9622cb74a8ed993fb0.png",
     "static/media/9thpicture.webp": "/static/media/9thpicture.26fc376e6abdf23c4837.webp",
     "static/media/6thpicture.jpg": "/static/media/6thpicture.45291adff4e4e1d960d2.jpg",
@@ -12,16 +12,17 @@
     "static/media/7thpicture.jpeg": "/static/media/7thpicture.c1fb0721ce0612666dae.jpeg",
     "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/Poster.jpeg": "/static/media/Poster.1bf38affb029d0bfde67.jpeg",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/8thpicture.jpg": "/static/media/8thpicture.f7a5fc6515b5b2c9ea61.jpg",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/img.png": "/static/media/img.7fbb948976a0776011d1.png",
     "index.html": "/index.html",
-    "main.54494066.css.map": "/static/css/main.54494066.css.map",
-    "main.cbf40166.js.map": "/static/js/main.cbf40166.js.map"
+    "main.a988d059.css.map": "/static/css/main.a988d059.css.map",
+    "main.85e99d3c.js.map": "/static/js/main.85e99d3c.js.map"
   },
   "entrypoints": [
-    "static/css/main.54494066.css",
-    "static/js/main.cbf40166.js"
+    "static/css/main.a988d059.css",
+    "static/js/main.85e99d3c.js"
   ]
 }
