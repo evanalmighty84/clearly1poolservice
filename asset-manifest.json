@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.a988d059.css",
-    "main.js": "/static/js/main.85e99d3c.js",
+    "main.css": "/static/css/main.b2f5d402.css",
+    "main.js": "/static/js/main.b1035caa.js",
     "static/media/Clearly.gif": "/static/media/Clearly.571c055f29bdfcae5037.gif",
-    "static/media/Movie5.mp4": "/static/media/Movie5.171879edfd83d708a214.mp4",
+    "static/media/Movie5.mp4": "/static/media/Movie5.08cc3cd7fba24e7bedb6.mp4",
     "static/media/clipart2.png": "/static/media/clipart2.0c9622cb74a8ed993fb0.png",
     "static/media/9thpicture.webp": "/static/media/9thpicture.26fc376e6abdf23c4837.webp",
     "static/media/6thpicture.jpg": "/static/media/6thpicture.45291adff4e4e1d960d2.jpg",
@@ -17,12 +17,14 @@
     "static/media/8thpicture.jpg": "/static/media/8thpicture.f7a5fc6515b5b2c9ea61.jpg",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/img.png": "/static/media/img.7fbb948976a0776011d1.png",
+    "static/media/gallerylogo.jpg": "/static/media/gallerylogo.4f7c50117eaf23f262a4.jpg",
+    "static/media/clearly1clean.svg": "/static/media/clearly1clean.52dbbc1f8d70d5744c67ae4d0042d99f.svg",
     "index.html": "/index.html",
-    "main.a988d059.css.map": "/static/css/main.a988d059.css.map",
-    "main.85e99d3c.js.map": "/static/js/main.85e99d3c.js.map"
+    "main.b2f5d402.css.map": "/static/css/main.b2f5d402.css.map",
+    "main.b1035caa.js.map": "/static/js/main.b1035caa.js.map"
   },
   "entrypoints": [
-    "static/css/main.a988d059.css",
-    "static/js/main.85e99d3c.js"
+    "static/css/main.b2f5d402.css",
+    "static/js/main.b1035caa.js"
   ]
 }
